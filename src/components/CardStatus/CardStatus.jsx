@@ -2,7 +2,7 @@ import { CarSimple } from "@phosphor-icons/react/dist/ssr";
 
 export default function CardStatus() {
     return (
-        <div className="h-36 w-56 bg-blue-950 rounded-2xl flex flex-col justify-between text-white p-3 px-5">
+        <div className="bg-blue-950 rounded-2xl flex flex-col justify-between m-2 text-white p-3 px-5 flex-shrink">
             <div className="flex min-w-full">
                 <div className="flex-1 flex justify-start font-bold">
                     N° 001
@@ -19,6 +19,7 @@ export default function CardStatus() {
                 <div className="flex-1 flex justify-center">
                     E: &nbsp; <span className="font-bold">00:00:00</span>
                 </div>
+                &nbsp;
                 <div className="flex-1 flex justify-center">
                     S: &nbsp; <span className="font-bold">00:00:00</span>
                 </div>

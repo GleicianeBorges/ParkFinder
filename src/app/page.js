@@ -1,3 +1,4 @@
+"use client";
 import Button from "@/components/Button/Button";
 import InputWithLabel from "@/components/InputWithLabel/InputWithLabel";
 
@@ -29,7 +30,7 @@ export default function Home() {
             autoComplete="current-password"
           />
 
-          <Button text="Login" />
+          <Button> Login </Button>
         </form>
       </div>
     </div>
